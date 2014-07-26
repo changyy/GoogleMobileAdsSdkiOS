@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 	s.source = {
 		:http => 'http://dl.google.com/googleadmobadssdk/googlemobileadssdkios.zip'
 	}
-	s.source_files = '{GoogleMobileAdsSdkiOS-6.10.0}/*.{h}'
+	s.source_files = 'GoogleMobileAdsSdkiOS-6.10.0/*.{h}'
 	s.libraries = 'GoogleAdMobAds'
 	s.preserve_paths = 'GoogleMobileAdsSdkiOS-6.10.0'
 	s.xcconfig = {

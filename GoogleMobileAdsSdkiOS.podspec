@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
 	s.xcconfig = {
 		'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/GoogleMobileAdsSdkiOS/GoogleMobileAdsSdkiOS-6.12.0/**"
 	}
-	s.framework = 'AVFoundation', 'SystemConfiguration', 'MessageUI', 'AudioToolbox', 'StoreKit', 'CoreTelephony', 'AdSupport', 'EventKit.framework', 'EventKitUI.framework'
+	s.framework = 'AVFoundation', 'SystemConfiguration', 'MessageUI', 'AudioToolbox', 'StoreKit', 'CoreTelephony', 'AdSupport'
+	s.weak_frameworks = 'EventKit.framework', 'EventKitUI.framework'
 	s.requires_arc = false
 end

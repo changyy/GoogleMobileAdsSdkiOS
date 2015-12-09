@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 	s.name = 'GoogleMobileAdsSdkiOS'
 	s.homepage = 'https://developers.google.com/mobile-ads-sdk/'
-	s.version = '7.5.2'
+	s.version = '7.6.0'
 	s.license = {
 		:type => 'Copyright',
 		:text => '"Copyright 2009 - 2015 Google, Inc. All rights reserved.'
@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
 	s.source = {
 		:http => 'http://dl.google.com/googleadmobadssdk/googlemobileadssdkios.zip'
 	}
-	s.preserve_paths = 'GoogleMobileAdsSdkiOS-7.5.2'
+	s.preserve_paths = 'GoogleMobileAdsSdkiOS-7.6.0'
 	s.xcconfig = {
-		'FRAMEWORK_SEARCH_PATHS' => "$(PODS_ROOT)/GoogleMobileAdsSdkiOS/GoogleMobileAdsSdkiOS-7.5.2/**"
+		'FRAMEWORK_SEARCH_PATHS' => "$(PODS_ROOT)/GoogleMobileAdsSdkiOS/GoogleMobileAdsSdkiOS-7.6.0/**"
 	}
 	s.source_files = 'GoogleMobileAds.framework/Headers/*.{h}'
 	s.framework = 'AVFoundation', 'SystemConfiguration', 'MessageUI', 'AudioToolbox', 'StoreKit', 'CoreTelephony', 'AdSupport', 'GoogleMobileAds'

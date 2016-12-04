@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = 'GoogleMobileAdsSdkiOS'
-	s.summary = ''
+	s.summary = 'simple tool'
 	s.homepage = 'https://developers.google.com/mobile-ads-sdk/'
 	s.version = '7.6.0'
 	s.license = {

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 		'FRAMEWORK_SEARCH_PATHS' => "$(PODS_ROOT)/GoogleMobileAdsSdkiOS/GoogleMobileAdsSdkiOS-7.6.0/**"
 	}
 	s.source_files = 'GoogleMobileAds.framework/Headers/*.{h}'
-	s.framework = 'AVFoundation', 'SystemConfiguration', 'MessageUI', 'AudioToolbox', 'StoreKit', 'CoreTelephony', 'AdSupport', 'GoogleMobileAds'
+	s.framework = 'AVFoundation', 'SystemConfiguration', 'MessageUI', 'AudioToolbox', 'StoreKit', 'CoreTelephony', 'AdSupport', 'GoogleMobileAds', 'CoreMedia'
 	s.weak_frameworks = 'EventKit', 'EventKitUI'
 	s.requires_arc = false
 end
